@@ -1,0 +1,192 @@
+/* About me Page */
+
+@import url("/Users/ashaadisa/Desktop/CODE PROJECTs/FINAL SECOND PROJECT/CSS files/header2.css");
+
+/*small screen */
+@media(max-width: 390px) {
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    display:grid;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 300px 100px 300px 200px;
+    grid-gap: 10px;
+    border: 10px solid black;
+    grid-template-areas: 
+    "hd2"
+    "hsb"
+    "nb"
+    "bb"
+    "ft2";
+}
+
+
+.headshotbox {
+    grid-area: "hsb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.namebox{
+    grid-area: "nb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.biobox{
+    grid-area: "bb";
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    padding: 15px;
+    font: 15px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 1fr;
+    flex-direction: row;
+    flex-wrap:inherit;
+
+}
+
+.footer2{
+    grid-area: "ft2";
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+}
+
+
+/* medium screens */
+@media screen and (max-width: 900px) and (min-width: 391px){
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    display:grid;
+    width: 100%;
+    background-color: blueviolet;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 300px 100px 300px 200px;
+    grid-gap: 10px;
+    border: 10px solid black;
+    grid-template-areas: 
+    "hd1"
+    "hsb"
+    "nb"
+    "bb"
+    "ft2";
+}
+
+
+.headshotbox {
+    grid-area: "hsb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.namebox{
+    grid-area: "nb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.biobox{
+    grid-area: "bb";
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    padding: 15px;
+    font: 15px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.footer2{
+    grid-area: "ft2";
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+}
+
+
+/* large screens */
+@media screen and (min-width: 900px) {
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container2 {
+    display:grid;
+    width: 100%;
+    background-color: blueviolet;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 300px 100px 300px 200px;
+    grid-gap: 10px;
+    border: 10px solid black;
+    grid-template-areas: 
+    "hd2"
+    "hsb"
+    "nb"
+    "bb"
+    "ft2";
+}
+
+.headshotbox {
+    grid-area: "hsb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.namebox{
+    grid-area: "nb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.biobox{
+    grid-area: "bb";
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    padding: 15px;
+    font: 25px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.footer2{
+    grid-area: "ft2";
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+}

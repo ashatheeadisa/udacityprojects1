@@ -1,0 +1,21 @@
+
+
+.header1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    padding: 15px;
+    grid-area: "hd1";
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

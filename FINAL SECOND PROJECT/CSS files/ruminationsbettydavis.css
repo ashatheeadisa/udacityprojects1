@@ -1,0 +1,214 @@
+/*Betty Davis Page */
+
+@import url("/Users/ashaadisa/Desktop/CODE PROJECTs/FINAL SECOND PROJECT/CSS files/header3.css");
+
+/*small screens */
+@media(max-width: 390px) {
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container3 {
+    display:grid;
+    width: 100%;
+    height: 100%;
+    padding:0%;
+    margin: 0%;
+    background-color: blueviolet;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 100px 500px 300px 100px;
+    grid-gap: 10px;
+    border: 10px solid black;
+    grid-template-areas: 
+    "hd3"
+    "tb"
+    "pb"
+    "ib"
+    "f3";
+}
+
+
+.titlebar {
+    grid-area: "tb";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.photobox {
+    grid-area: "pb";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+
+    height: 500px; 
+    max-width: 100%;
+  
+  }
+
+.infobox {
+    grid-area: "ib";
+    padding: 5px;
+    font: 15px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: center;
+
+}
+
+.footer3 {
+    grid-area: "f3";
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+}
+
+/* medium screens */
+@media screen and (max-width: 900px) and (min-width: 391px) {
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container3 {
+    display:grid;
+    width: 1fr;
+    background-color: blueviolet;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 100px 500px 300px 100px;
+    grid-gap: 10px;
+    border: 10px solid black;
+    grid-template-areas: 
+    "hd3"
+    "tb"
+    "pb"
+    "ib"
+    "f3"
+}
+
+.titlebar {
+    grid-area: tb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.photobox {
+    grid-area: pb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+
+    height: 500px; 
+    max-width: 100%;
+  
+  }
+
+.infobox {
+    grid-area: ib;
+    padding: 5px;
+    font: 15px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: center;
+
+}
+
+.footer3 {
+    grid-area: f3;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+}
+
+/* large screens */
+@media screen and (min-width: 900px)  {
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container3 {
+    display:grid;
+    width: 1fr;
+    background-color: blueviolet;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 100px 500px 300px 100px;
+    grid-gap: 10px;
+    border: 10px solid black;
+    grid-template-areas: 
+    "hd3"
+    "tb"
+    "pb"
+    "ib"
+    "f3"
+}
+
+.titlebar {
+    grid-area: tb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.photobox {
+    grid-area: pb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+
+    height: 500px; 
+    max-width: 100%;
+  
+  }
+
+.infobox {
+    grid-area: ib;
+    padding: 5px;
+    font: 30px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgb(204, 219, 232) 6px 6px 6px 0px inset, rgba(255, 255, 255, 0.5) -6px -6px 6px 1px inset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: center;
+
+}
+
+.footer3 {
+    grid-area: f3;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+}
+

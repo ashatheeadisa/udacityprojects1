@@ -1,6 +1,6 @@
 /*Betty Davis Page */
 
-@import url("/CSS files/header3.css");
+@import url("header3.css");
 
 /*small screens */
 @media(max-width: 390px) {

@@ -1,6 +1,6 @@
 /* About me Page */
 
-@import url("CSS files/header2.css");
+@import url("header2.css");
 
 /*small screen */
 @media(max-width: 390px) {
